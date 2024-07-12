@@ -3,9 +3,22 @@
 	text-align: center;
 }
 
+@font-face {
+    font-family: "LovinaOctoverFiveItalic";
+    src: url("../Fuentes/Lovina_Octover_Five_(Italic).otf") format("opentype");
+}
+
+body {
+    font-family: "LovinaOctoverFiveItalic";
+}
+
 h1 {
 	font-size: 60px;
 	margin-top: 60px;
+}
+
+span {
+    color: #F4D03F;	
 }
 
 h2 {

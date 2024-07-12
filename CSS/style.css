@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: "LovinaOctoverFiveRegular";
-    src: url("../Fuentes/Lovina Octover Five (Regular).otf") format("opentype");
+    src: url("../Fuentes/Lovina_Octover_Five_(Regular).otf") format("opentype");
 }
 
 body {
@@ -52,7 +52,6 @@ img:hover {
 .overlay-img {
     max-width: 90%;
     max-height: 90%;
-    border-radius: 10px;
 }
 
 .overlay.show {
@@ -65,7 +64,6 @@ img:hover {
     background: rgba(0, 0, 0, 0.5);
     color: white;
     font-size: 24px;
-    border-radius: 10px;
     transition: opacity 0.3s ease;
 }
 
