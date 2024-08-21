@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     for (let i = 1; i <= numeroImagenes; i++) {
         const img = document.createElement("img");
-        img.src = `../IMG/${i}.jpg`;
+        img.src = `/static/IMG/${i}.jpg`;
         img.alt = `Imagen ${i}`;
 
         img.addEventListener("click", () => {

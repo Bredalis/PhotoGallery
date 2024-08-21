@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galería De Fotos</title>
-    <link rel="stylesheet" href="../CSS/style.css">
-    <link rel="shortcut icon" href="../IMG/Logo.png" type="image/x-icon">
-    <script type="text/javascript" src="../JS/main.js" defer></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='CSS/style.css') }}">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='IMG/Logo.png') }}" type="image/x-icon">
+    <script type="text/javascript" src="{{ url_for('static', filename='JS/main.js') }}" defer></script>
 </head>
 <body>
     <h1>💜 Mi <span>Galería</span> De Fotos 💜</h1>
