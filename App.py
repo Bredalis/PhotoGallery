@@ -2,7 +2,6 @@
 from flask import Flask, render_template
 
 def galeria_fotos():
-
 	app = Flask(__name__)
 
 	@app.route("/")
